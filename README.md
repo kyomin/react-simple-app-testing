@@ -41,4 +41,14 @@ FaceBook에 의해서 만들어진 테스팅 프레임워크이다.
 2. Test 스크립트 변경 : `"test": "jest" or "jest --watchAll"`   
 3. 테스트 작성할 폴더 및 파일 기본 구조 생성   
    
-![jest](https://user-images.githubusercontent.com/46395776/145813919-e561dce2-0198-4225-9507-9446a453fa0f.png)
+![jest](https://user-images.githubusercontent.com/46395776/145813919-e561dce2-0198-4225-9507-9446a453fa0f.png)   
+   
+# Simple App 소개
+
+![simple app](https://user-images.githubusercontent.com/46395776/145814490-392aca19-133d-4a0d-8d04-8df717c9784b.png)   
+   
++, -, 그리고 on/off의 버튼이 있다.   
+거기서 + 버튼을 누르면 숫자가 올라가고 -를 누르면 내려간다.   
+처음 숫자는 0부터 시작한다.   
+그리고 on/off 버튼을 누르면 +, - 버튼이 disabled 된다.   
+이러한 요구사항을 만족하는 테스트 코드를 작성한다.
